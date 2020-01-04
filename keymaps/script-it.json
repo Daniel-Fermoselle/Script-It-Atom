@@ -1,0 +1,13 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-s" : "script-it:StartScriptIt",
+    "ctrl-shift-t": "script-it:Traceability",
+    "ctrl-alt-a": "script-it:FreeForAllRefactor",
+    "ctrl-alt-c": "script-it:TraceToggle",
+    "ctrl-alt-m": "script-it:Make-Function",
+    "ctrl-alt-e": "script-it:ExtractCode",
+    "alt-h": "script-it:ReverseHighlighting",
+    "ctrl-alt-h": "script-it:Help",
+    "escape": "script-it:ExitHelp"
+  }
+}

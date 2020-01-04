@@ -1,0 +1,106 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Help: Open help panel",
+        "command": "script-it:Help"
+      },
+      {
+        "label": "Traceability features",
+        "command": "script-it:Traceability"
+      },
+      {
+        "label": "Make Function",
+        "command": "script-it:Make-Function"
+      },
+      {
+        "label": "Rename",
+        "command": "script-it:Rename"
+      },
+      {
+        "label": "Expression to Var",
+        "command": "script-it:ExprToVar"
+      },
+      {
+        "label": "Clean the current editor and extract the code representing the model",
+        "command": "script-it:ExtractCode"
+      },
+      {
+        "label": "Activates highlighting capabilities for the existing code within the text editor without checking the digital modelling application for already existing shapes.",
+        "command": "script-it:HighlightCode"
+      },
+      {
+        "label": "Highlight the code lines which represent the highlighted shapes in the digital modelling application",
+        "command": "script-it:ReverseHighlighting"
+      },
+      {
+        "label": "Run the code in the current text editor",
+        "command": "script-it:RunCode"
+      },
+      {
+        "label": "Traceability mode toggle",
+        "command": "script-it:TraceToggle"
+      },
+      {
+        "label": "Traceability free for all toggle",
+        "command": "script-it:FreeForAllRefactor"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "script-it",
+          "submenu": [
+            {
+              "label": "Help: Open help panel",
+              "command": "script-it:Help"
+            },
+            {
+              "label": "Traceability features",
+              "command": "script-it:Traceability"
+            },
+            {
+              "label": "Make Function",
+              "command": "script-it:Make-Function"
+            },
+            {
+              "label": "Rename",
+              "command": "script-it:Rename"
+            },
+            {
+              "label": "Expression to Var",
+              "command": "script-it:ExprToVar"
+            },
+            {
+              "label": "Extract the code representing the model",
+              "command": "script-it:ExtractCode"
+            },
+            {
+              "label": "Activates highlighting capabilities for the existing code within the text editor without checking the digital modelling application for already existing shapes.",
+              "command": "script-it:HighlightCode"
+            },
+            {
+              "label": "Highlight the code lines which represent the highlighted shapes in the digital modelling application",
+              "command": "script-it:ReverseHighlighting"
+            },
+            {
+              "label": "Run the code in the current text editor",
+              "command": "script-it:RunCode"
+            },
+            {
+              "label": "Traceability mode toggle",
+              "command": "script-it:TraceToggle"
+            },
+            {
+              "label": "Traceability free for all toggle",
+              "command": "script-it:FreeForAllRefactor"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

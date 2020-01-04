@@ -1,0 +1,27 @@
+{
+  "name": "script-it",
+  "main": "./lib/script-it",
+  "version": "0.0.0",
+  "activationCommands": {
+    "atom-workspace": "script-it:StartScriptIt"
+  },
+  "description": "Script it blah blah. No Activation commands atm but might be needed in the future. Maybe learn how to run an automatic toggle first use.",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/script-it",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "julia-client": {
+      "versions": {
+        "0.1.0": "consumeJuliaClient"
+      }
+    }
+  },
+  "dependencies": {
+    "julia-client": "0.7.8"
+  }
+
+}
