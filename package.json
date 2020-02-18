@@ -19,7 +19,7 @@
     }
   },
   "dependencies": {
-    "julia-client": "0.7.8"
+    "julia-client": ">=0.7.8"
   }
 
 }

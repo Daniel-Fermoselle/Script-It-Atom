@@ -13,7 +13,7 @@
         "command": "script-it:Traceability"
       },
       {
-        "label": "Extract Function",
+        "label": "Extract function",
         "command": "script-it:Make-Function"
       },
       {
@@ -52,7 +52,7 @@
               "command": "script-it:Traceability"
             },
             {
-              "label": "Extract Function",
+              "label": "Extract function",
               "command": "script-it:Make-Function"
             },
             {
